@@ -1,7 +1,6 @@
 #SOURCE: https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
-n = 4421
-product,Sum = 1,0
-for i in str(n):
-    product *= int(i)
-    Sum += int(i)
-print (product - Sum)
+from functools import reduce
+lst = []
+num = [1,2,3]
+for i in str(n): lst.append(int(i))
+print (reduce(lambda a,b: a*b,lst) - reduce(lambda a,b: a+b ,lst))
