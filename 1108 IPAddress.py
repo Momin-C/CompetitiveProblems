@@ -1,3 +1,4 @@
 #SOURCE: https://leetcode.com/problems/defanging-an-ip-address/
-address = input()
-print('"' + address.replace(".","[.]") + '"')
+def defangIPaddr(address):
+    return ('"' + address.replace(".","[.]") + '"')
+print (defangIPaddr("1.1.1.1"))

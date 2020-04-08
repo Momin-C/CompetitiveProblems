@@ -1,3 +1,4 @@
 #SOURCE: https://leetcode.com/problems/to-lower-case/submissions/
-str = input()
-print (str.lower())
+def toLowerCase(str):
+    return (str.lower())
+print (toLowerCase("HeLLO!"))
