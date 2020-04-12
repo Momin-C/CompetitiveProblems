@@ -1,14 +1,13 @@
 #SOURCE: https://leetcode.com/problems/unique-morse-code-words/
 #WORK IN PROGRESS
+words = ["gin", "zen", "gig", "msg"]
 def uniqueMorseRepresentations(words):
-    morseWord = ""
     morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
     for i in range (len(words)):
         words[i] = list(words[i])
+        print(words)
         for x in range (len(words[i])):
-            words[i][x] = morse[x]
-        print (words)
+            ascii = ord(words[i][x]) - 97
+            words[i][x] = morse[ascii]
     return words
-#words = ["gin", "zen", "gig", "msg"]
-words = ["aaa","Hi"]
-print (uniqueMorseRepresentations(words))
+print(uniqueMorseRepresentations(words))
