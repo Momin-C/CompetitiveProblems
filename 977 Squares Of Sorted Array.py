@@ -6,8 +6,11 @@ def sortedSquares(A):
     A.sort()
     return A
     """
+    
     """
     return sorted(list(map(lambda x: x**2,A)))
     """
+
     return sorted([x**2 for x in A])
+
 print (sortedSquares(A))
