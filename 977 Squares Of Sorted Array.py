@@ -1,3 +1,4 @@
+#SOURCE: https://leetcode.com/problems/squares-of-a-sorted-array/
 A = [-7,-3,2,3,11]
 def sortedSquares(A):
     """
@@ -6,7 +7,7 @@ def sortedSquares(A):
     A.sort()
     return A
     """
-    
+
     """
     return sorted(list(map(lambda x: x**2,A)))
     """
