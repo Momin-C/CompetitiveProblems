@@ -1,1 +1,1 @@
-This is a repository I use to solve various problems from LeetCode and the University of Waterloo's CCC
+The following repository is for solutions to various Leetcode.com questions in Python
