@@ -5,9 +5,9 @@ def reverseString(s):
     :type s: List[str]
     :rtype: None Do not return anything, modify s in-place instead.
     """
-    f = []
-
+    f = len(s)
     for i in range (len(s)-1,-1,-1):
-        f.append(s[i])
-    print (f)
+        s.append(s[i])
+    del s[:f]
+    return s
 print (reverseString(s))
