@@ -1,3 +1,5 @@
+#PROBLEM 1394
+#SOURCE: https://leetcode.com/problems/find-lucky-integer-in-an-array/
 arr = [1,2,2,3,3,3]
 def findLucky(arr):
     lst = []

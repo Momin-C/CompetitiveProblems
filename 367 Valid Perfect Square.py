@@ -1,3 +1,5 @@
+#PROBLEM 367
+#SOURCE: https://leetcode.com/problems/valid-perfect-square/
 num = 2147483647
 def isPerfectSquare(num):
     if num ==1 or num ==4 or num ==9:

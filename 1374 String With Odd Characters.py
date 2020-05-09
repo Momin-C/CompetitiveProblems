@@ -1,3 +1,4 @@
+#PROBLEM 1374
 #SOURCE: https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/
 n=7
 def generateTheString(n):

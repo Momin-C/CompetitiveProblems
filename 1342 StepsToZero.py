@@ -1,3 +1,4 @@
+#PROBLEM 1342
 #SOURCE: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero
 num = 14
 def numberOfSteps (num):

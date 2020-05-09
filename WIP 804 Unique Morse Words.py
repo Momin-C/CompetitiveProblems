@@ -1,5 +1,5 @@
+#PROBLEM 804
 #SOURCE: https://leetcode.com/problems/unique-morse-code-words/
-#WORK IN PROGRESS
 import numpy as np
 words = ["gin", "zen", "gig", "msg"]
 def uniqueMorseRepresentations(words):
