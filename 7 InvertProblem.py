@@ -4,7 +4,6 @@ def reverse(x):
     x = str(x)
     if x[0] != "-":
         x = x[::-1]
-        print (x)
     elif x[0] == "-":
         x = x[1:]
         x = x[::-1]
