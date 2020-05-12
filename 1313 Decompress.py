@@ -1,4 +1,4 @@
-#PROBLEM: 1313
+#PROBLEM 1313
 #SOURCE: https://leetcode.com/problems/decompress-run-length-encoded-list/submissions/
 nums = [1,2,3,4]
 def decompressRLElist(nums):

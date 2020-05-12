@@ -1,4 +1,4 @@
-#PROBLEM: 1299
+#PROBLEM 1299
 #SOURCE: https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
 arr = [17,18,5,4,6,1]
 

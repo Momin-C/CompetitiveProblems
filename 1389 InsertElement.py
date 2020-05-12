@@ -1,4 +1,4 @@
-#PROBLEM: 1389
+#PROBLEM 1389
 #SOURCE: https://leetcode.com/problems/create-target-array-in-the-given-order/
 nums = [0,1,2,3,4]
 index = [0,1,2,2,1]
