@@ -1,17 +1,14 @@
 #PROBLEM 804
 #SOURCE: https://leetcode.com/problems/unique-morse-code-words/
-import numpy as np
 words = ["gin", "zen", "gig", "msg"]
 def uniqueMorseRepresentations(words):
+    letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
     morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
-    for i in range (len(words)):
-        words[i] = list(words[i])
-        print(words)
-        for x in range (len(words[i])):
-            ascii = ord(words[i][x]) - 97
-            words[i][x] = morse[ascii]
-    words = np.array(words)
-    print (len(words))
-    result = words.ravel()
-    return result
+    translated = []
+    for i in words:
+        morseWord = ""
+        for x in range(len(i)):
+            morseWord+= morse[letters.index(i[x])]
+        translated.append(morseWord)
+    return len(set(translated))
 print(uniqueMorseRepresentations(words))
